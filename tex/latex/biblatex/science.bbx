@@ -8,7 +8,7 @@
 %% ---------------------------------------------------------------
 %% 
 
-\ProvidesFile{science.bbx}[2011/03/13 v1.1 biblatex bibliography style]
+\ProvidesFile{science.bbx}[2012/08/16 v1.1c biblatex bibliography style]
 
 % Load the standard style to avoid copy-pasting unnecessary material
 \RequireBibliographyStyle{numeric-comp}
@@ -34,7 +34,7 @@
   \usebibmacro{name:andothers}%
 }
 
-\newbibmacro*{name:andothers}{%
+\renewbibmacro*{name:andothers}{%
   \ifboolexpr{
     test {\ifnumequal{\value{listcount}}{\value{liststop}}}
     and
@@ -68,7 +68,18 @@
 \DeclareFieldFormat[article,periodical]{volume}{\mkbibbold{#1}}
 
 % Simple modifications to punctuation, etc.
-\let\finalnamedelim\multinamedelim
+\renewcommand*{\finalnamedelim}{%
+  \ifcurrentname{labelname}
+    {%
+      \ifnumgreater{\value{liststop}}{2}
+        {\finalandcomma}
+        {}%
+      \addspace
+      \bibstring{and}%
+      \space
+    }
+    {\multinamedelim}%
+}
 \renewcommand*\intitlepunct{\addspace}
 \renewcommand*\newunitpunct{\addcomma\space}
 
@@ -132,7 +143,7 @@
     }%
 }
 
-\newbibmacro*{journal+issuetitle}{%
+\renewbibmacro*{journal+issuetitle}{%
   \usebibmacro{journal}%
   \setunit*{\addspace}%
   \iffieldundef{series}
@@ -300,7 +311,7 @@
   \newunit\newblock
   \usebibmacro{in:}%
   \usebibmacro{bybookauthor}%
-  \newunit\newblock
+  \setunit*{\newunitpunct}\newblock
   \usebibmacro{maintitle+booktitle}%
   \newunit\newblock
   \usebibmacro{byeditor+others}%
@@ -538,7 +549,7 @@
 }
 
 %% 
-%% Copyright (C) 2010,2011 by
+%% Copyright (C) 2010-2012 by
 %%   Joseph Wright <joseph.wright@morningstar2.co.uk>
 %% 
 %% It may be distributed and/or modified under the conditions of
