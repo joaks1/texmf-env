@@ -1,0 +1,50 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Quick Reference}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Format}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Spacing}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Uppercase}{2}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Tools}{2}{subsection.2.4}
+\contentsline {section}{\numberline {3}Advanced Interface}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Format}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Spacing}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Spacing related tools}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Rules}{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Page styles}{7}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Breaks}{7}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Other Package Options}{8}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Extended Settings}{9}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Creating new levels and changing the class}{10}{subsection.3.9}
+\contentsline {section}{\numberline {4}Additional Notes}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Fixed Width Labels}{10}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Starred Versions}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Variants}{11}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Putting a Dot after the Section Title}{12}{subsection.4.4}
+\contentsline {section}{\numberline {5}\textsf {titleps} and Page Styles}{12}{section.5}
+\contentsline {section}{\numberline {6}Contents: The \textsf {titletoc} package}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}A ten-minute guide to \textsf {titletoc}}{13}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}And more}{15}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Partial TOC's}{17}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Partial lists}{17}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Examples}{18}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Inserting a figure in the contents}{18}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Marking entries with asterisks}{19}{subsection.6.7}
+\contentsline {section}{\numberline {7}The \textsf {titlesec} philosophy}{19}{section.7}
+\contentsline {section}{\numberline {8}Appendix}{19}{section.8}
+\setcounter {tocdepth}{-1}\ignorespaces 
+\contentsline {section}{\numberline {9}Appendix}{19}{section.9}
+\contentsline {section}{\numberline {10}Appendix}{19}{section.10}
+\contentsline {section}{\numberline {11}Appendix}{19}{section.11}
+\contentsline {section}{\numberline {12}Appendix}{20}{section.12}
+\contentsline {section}{\numberline {13}Appendix}{20}{section.13}
+\contentsline {section}{\numberline {14}Appendix}{20}{section.14}
+\contentsline {section}{\numberline {15}Appendix}{20}{section.15}
+\contentsline {section}{\numberline {16}Appendix}{20}{section.16}
+\contentsline {section}{\numberline {17}Appendix}{21}{section.17}
+\contentsline {section}{\numberline {18}Appendix}{21}{section.18}
+\contentsline {section}{\numberline {19}Appendix}{21}{section.19}
+\contentsline {section}{\numberline {XX}Appendix}{22}{section.20}
+\setcounter {tocdepth}{2}\ignorespaces 
+\contentsline {subsection}{\numberline {9.1}A full example}{22}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Standard Classes}{23}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Chapter Example}{23}{subsection.9.3}
+\contentsfinish 
