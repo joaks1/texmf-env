@@ -1,0 +1,13 @@
+\ifdefined\textcontent
+\else
+    \def\textcontent{Hello world!}
+\fi
+\documentclass[border=2pt]{standalone}
+\usepackage[cm]{sfmath}
+\usepackage{amsmath}
+\usepackage{varwidth}
+\begin{document}
+\begin{varwidth}{\linewidth}
+\textcontent
+\end{varwidth}
+\end{document}
